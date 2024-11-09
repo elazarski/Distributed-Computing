@@ -21,7 +21,7 @@ def addReservation(reservation):
 
 # connect to database
 dbUsername = "root"
-dbPassword = "BVs4xuuxW0X9"
+dbPassword = "password"
 dbIp = input("Enter MongoDB IP: ")
 #dbPort = input("Enter MongoDB port: ")
 connectionUri = "mongodb://{0}:{1}@{2}:{3}".format(dbUsername, dbPassword, dbIp, "27017")
